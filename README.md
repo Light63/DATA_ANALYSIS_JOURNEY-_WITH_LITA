@@ -6,19 +6,19 @@ This project consists of analyzing a dataset containing sales and customer data 
 
 ### KEY FEATURES:
 
-## Data Exploration and Cleaning: 
+#### Data Exploration and Cleaning: 
 Assessing and cleaning the dataset to ensure accurate and reliable analysis.
 
-## Sales Performance Analysis: 
+#### Sales Performance Analysis: 
 Analyzing sales trends for each product type to identify the most popular products and seasonal patterns.
 
-## Customer Segmentation: 
+#### Customer Segmentation: 
 Grouping customers based on their purchasing behaviour to understand preferences and tailor marketing strategies.
 
-## Order Analysis: 
+#### Order Analysis: 
 Evaluating order details to determine order frequency, size, and trends across different product categories.
 
-## Visualizations:
+#### Visualizations:
 Creating visualizations to present sales performance, customer segmentation, and trends for better decision-making.
 
 
