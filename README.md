@@ -1,14 +1,37 @@
 # DATA_ANALYSIS_JOURNEY-_WITH_LITA
 ### PROJECT TITLE: SALES AND CUSTOMER DATA ANALYSIS FOR AN APPAREL AND ACCESSORIES BRAND
 
-### PROJECT OVERVIEW
+---
+
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Key Features](#key-features)
+
+[Technologies Used](#technologies-used)
+
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+
+[Exploratory Data Analysis_EDA](#exploratory-data-analysis-eda)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+---
+
+### Project Overview
 This project analyses a dataset containing sales and customer data for various apparel and accessories, including shirts, shoes, gloves, jackets, hats, and socks. The datasets include key information such as product types, order IDs, customer IDs, quantity of products sold, and unit prices. the primary objective of this project is to uncover insights from the sales data that can help this business brand make informed decisions to improve its product offerings, sales strategies, and customer experience.
+
+---
 
 ### Data Sources
 The primary source of data used here is Data Sale.CSV. It is open-source data that can be freely downloaded from an open source online such as Kaggle or FRED or any other data repository site. 
 
+---
 
-### KEY FEATURES:
+### Key Features
 
 #### Data Exploration and Cleaning: 
 Assessing and cleaning the dataset to ensure accurate and reliable analysis.
@@ -46,6 +69,7 @@ Creating visualizations to present sales performance, customer segmentation, and
   2. For collaboration and teamwork
 
   Therefore, this project aims to equip stakeholders of the brand with actionable insights to enhance sales strategies, boost customer retention, and streamline inventory management.
+  
 ---
 
 ### Data Cleaning and Preparations
@@ -119,9 +143,11 @@ EDA involves exploring the data to answer some questions about the data such as;
   SELECT * FROM TABLE 1
   WHERE CONDITION = TRUE
   ```
+
 ---
 
-### Data Visualization (power bi visualizations)
+### Data Visualization
+(power bi visualizations)
 
 
 
