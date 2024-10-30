@@ -25,10 +25,10 @@ Creating visualizations to present sales performance, customer segmentation, and
 
 ### TECHNOLOGIES USED:
 
-Excel for data cleaning
-for data analysis and manipulation.
+Excel for data cleaning, data reporting and data analysis.
+SQL for storing data, queering data, manipulating data and managing data. 
+Power BI for beautiful data visualizations.
 
-Pandas for data cleaning and preprocessing.
+Hence, this project aims to provide stakeholders with actionable insights to drive better sales strategies, improve customer retention, and optimize inventory management.
 
-Matplotlib/Seaborn for data visualization.
 
