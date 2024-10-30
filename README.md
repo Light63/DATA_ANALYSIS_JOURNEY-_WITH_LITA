@@ -27,14 +27,23 @@ Creating visualizations to present sales performance, customer segmentation, and
 
 ---
 
-### TECHNOLOGIES USED
+### Technologies Used
 - Microsoft Excel [Download here](https://www.microsoft.com)
   1. For Data Cleaning
   2. For Analysis
   3. For Data  Visualization
-- SQL-  Structured Query Language for querying of data.
-- POWER BI for beautiful and interactive data visualizations.
-- Github for Portfolio Building.
+- SQL-  Structured Query Language
+  1. For querying of data.
+  2. For storing data.
+  3. For managing data and,
+  4. For manipulating data.
+- POWER BI
+  1.  For beautiful and interactive data visualizations.
+  2.  For insightful data reports.
+  3.  For retrieving data from different sources.
+- Github
+  1. For Portfolio Building.
+  2. For collaboration and teamwork
 
   Therefore, this project aims to equip stakeholders of the brand with actionable insights to enhance sales strategies, boost customer retention, and streamline inventory management.
 ---
@@ -52,8 +61,14 @@ In the initial phase of the data cleaning and preparations, the following action
 #### SQL
   1. Conversion of the already cleaned data from Excel to a CSV file format, this was to enable importation of the data into SQL quickly and efficiently as opposed to importing an excel       file format directly.
   2. Creating a database (include database creation code here)
-  3. Import the SalesData and CustomerData data into the already created database.
-  4. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
+
+      ```SQL
+          CREATE DATABASE LITA_PROJECT
+      ```
+
+     
+  4. Import the SalesData and CustomerData data into the already created database.
+  5. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
 
 #### POWER BI
   1. launched the power bi environment.
