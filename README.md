@@ -59,13 +59,14 @@ In the initial phase of the data cleaning and preparations, the following action
   4. Data cleaning and formatting.
 
 #### SQL
-  1. Conversion of the already cleaned data from Excel to a CSV file format, this was to enable importation of the data into SQL quickly and efficiently as opposed to importing an excel       file format directly.
-  2. Creating a database (include database creation code here)
+  1. Conversion of the already cleaned data from Excel to a CSV file format, this was to enable importation of the data into SQL quickly and efficiently as opposed to importing an Excel       file format directly.
+  2. Creation of a database.
 
       ```SQL
           CREATE DATABASE LITA_PROJECT
       ```
 
+     The above code creates a database that houses all tables ready for querying.
      
   4. Import the SalesData and CustomerData data into the already created database.
   5. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
