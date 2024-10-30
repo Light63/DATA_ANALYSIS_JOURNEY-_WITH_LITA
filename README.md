@@ -56,7 +56,10 @@ In the initial phase of the data cleaning and preparations, the following action
   4. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
 
 #### POWER BI
-  1. launched the power bi environment
+  1. launched the power bi environment.
+  2. importation of both datasets using the TEXT/CSV file extension.
+  3. explored and cleaned the dataset
+  4. confirmed the intergrity of the datasets by using data quality, profile distribution, and data options.
 
 ---
 
