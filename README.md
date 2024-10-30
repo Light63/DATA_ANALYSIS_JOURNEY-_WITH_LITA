@@ -71,13 +71,13 @@ EDA involves exploring the data to answer some questions about the data such as;
 
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/Excel%20sales%20data%201.JPG?raw=true)
 
-  figure 1: shows the overall trend sales for the sales data using pivot tables and charts
+  Figure 1: Shows the overall trend sales for the sales data using pivot tables and charts
 
 
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/EXCEL%20CUSTOMER%20DATA.JPG?raw=true)
 
 
-  figure 2: shows the overall trend sales  for the customer data using pivot tables and charts
+  Figure 2: Shows the overall trend sales  for the customer data using pivot tables and charts
 
 
 
@@ -90,8 +90,8 @@ EDA involves exploring the data to answer some questions about the data such as;
 
 
 
-  figure 3: shows the already prepared dataset ready for visualizations. this is particularly important as it enables effective analysis of the data to make valid and informed decisions 
-            that will in turn, identify patterns, and sales trends and boost productivity, hence, increasing revenue and customer satisfaction.
+  Figure 3: Shows the already prepared dataset ready for visualizations. this is particularly important as it enables effective analysis of the data to make valid and informed decisions 
+            that will in turn, identify patterns, and sales trends, as well as boost productivity. Hence, increasing revenue and customer satisfaction.
 
 
 ---
