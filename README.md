@@ -45,7 +45,7 @@ In the initial phase of the data cleaning and preparations, the following action
 
 #### Excel
   1. Data loading and inspection
-  2. Handling missing variables using ISBLANK function in Excel
+  2. Handling missing and null variables using ISBLANK function in Excel
   3. Eliminating duplicates.
   4. Data cleaning and formatting.
 
@@ -57,14 +57,14 @@ In the initial phase of the data cleaning and preparations, the following action
 
 #### POWER BI
   1. launched the power bi environment.
-  2. importation of both datasets using the TEXT/CSV file extension.
-  3. explored and cleaned the dataset
-  4. confirmed the intergrity of the datasets by using data quality, profile distribution, and data options.
+  2. Importation of both datasets using the TEXT/CSV file extension.
+  3. Explored and cleaned the dataset.
+  4. Confirmed the integrity of the datasets by using column quality, column distribution, and column profile options under the view tab(screenshot of this).
 
 ---
 
-### Exploratory Data Analysis
-EDA involved the exploring of the data to answer some questions about the data such as;
+### Exploratory Data Analysis (EDA)
+EDA involves exploring the data to answer some questions about the data such as;
 - What is the overall sales trend
 - Which products are top sellers
 - What are the products on peak sales? (pivot tables and charts for both datasets here)
@@ -72,7 +72,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 ---
 
   ### Data Analysis
-  This is where we include some basic lines of code for queries or even some of the DAX expressions used during your analysis;
+  the images  and codes below show how data analysis was performed on the datasets using the above-mentioned tools.
 
   ```SQL
   SELECT * FROM TABLE 1
@@ -80,6 +80,7 @@ EDA involved the exploring of the data to answer some questions about the data s
   ```
 ---
 
-### Data Visualization
+### Data Visualization (power bi visualizations)
+
 
 
