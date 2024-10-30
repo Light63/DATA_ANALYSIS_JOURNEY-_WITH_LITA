@@ -32,7 +32,8 @@ Creating visualizations to present sales performance, customer segmentation, and
   1. For Data Cleaning
   2. For Analysis
   3. For Data  Visualization
-- SQL-  Structured Query Language for querying of data
+- SQL-  Structured Query Language for querying of data.
+- POWER BI for beautiful and interactive data visualizations.
 - Github for Portfolio Building.
 
   Therefore, this project aims to equip stakeholders of the brand with actionable insights to enhance sales strategies, boost customer retention, and streamline inventory management.
@@ -50,9 +51,12 @@ In the initial phase of the data cleaning and preparations, the following action
 
 #### SQL
   1. Conversion of the already cleaned data from Excel to a CSV file format, this was to enable importation of the data into SQL quickly and efficiently as opposed to importing an excel       file format directly.
-  2. Creating a database
+  2. Creating a database (include database creation code here)
+  3. Import the SalesData and CustomerData data into the already created database.
+  4. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
 
 #### POWER BI
+  1. launched the power bi environment
 
 ---
 
@@ -60,7 +64,7 @@ In the initial phase of the data cleaning and preparations, the following action
 EDA involved the exploring of the data to answer some questions about the data such as;
 - What is the overall sales trend
 - Which products are top sellers
-- What are the products on peak sales?
+- What are the products on peak sales? (pivot tables and charts for both datasets here)
 
 ---
 
