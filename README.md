@@ -69,6 +69,8 @@ EDA involves exploring the data to answer some questions about the data such as;
 - Which products are top sellers
 - What are the products on peak sales? (pivot tables and charts for both datasets here)
 
+  ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/Excel%20sales%20data%201.JPG?raw=true)
+
 ---
 
   ### Data Analysis
