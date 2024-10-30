@@ -80,6 +80,20 @@ EDA involves exploring the data to answer some questions about the data such as;
   figure 2: shows the overall trend sales  for the customer data using pivot tables and charts
 
 
+
+
+  ![Alt text for image](
+
+
+
+
+
+
+
+  figure 3: shows the already prepared dataset ready for visualizations. this is particularly important as it enables effective analysis of the data to make valid and informed decisions 
+            that will in turn, identify patterns, and sales trends and boost productivity, hence, increasing revenue and customer satisfaction.
+
+
 ---
 
   ### Data Analysis
