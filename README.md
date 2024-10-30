@@ -71,6 +71,15 @@ EDA involves exploring the data to answer some questions about the data such as;
 
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/Excel%20sales%20data%201.JPG?raw=true)
 
+  figure 1: shows the overall trend sales for the sales data using pivot tables and charts
+
+
+  ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/EXCEL%20CUSTOMER%20DATA.JPG?raw=true)
+
+
+  figure 2: shows the overall trend sales  for the customer data using pivot tables and charts
+
+
 ---
 
   ### Data Analysis
