@@ -3,21 +3,32 @@
 
 ---
 
-[Project Overview_for Sales Data](#project-overview-for-sales-data)
+[Project Overview for Sales Data](#project-overview-for-sales-data)
+
+[Project Overview for Customer Subscription Data](#project-overview-for-customer-subscription- data)
 
 [Data Sources](#data-sources)
 
-[Key Features](#key-features)
+[Key Features for Sales Data](#key-features-for-sales-data)
+
+[Key Features for Customer Subscription Data](#key-features-for-customer-subscription-data)
 
 [Technologies Used](#technologies-used)
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
-[Exploratory Data Analysis_EDA](#exploratory-data-analysis-eda)
+[Exploratory Data Analysis (EDA) for Sales data and Customer Subscription Data](#exploratory-data-analysis-(eda)-for-sales-data-and-customer-subscription-data)
 
 [Data Analysis](#data-analysis)
 
-[Data Visualization](#data-visualization)
+[Data Visualization for Sales Data](#data-visualization-for-sales-data)
+
+[Data Visualization for Customer Subscription Data](#data-visualization-for-customer-subscription-data)
+
+---
+
+### Project Overview for Sales Data
+This project analyses a dataset containing sales and customer data for various apparel and accessories, including shirts, shoes, gloves, jackets, hats, and socks. The datasets include key information such as product types, order IDs, customer IDs, quantity of products sold, and unit prices. the primary objective of this project is to uncover insights from the sales data that can help this business brand make informed decisions to improve its product offerings, sales strategies, and customer experience.
 
 ---
 
@@ -31,7 +42,7 @@ The primary source of data used here is Data Sale.CSV. It is open-source data th
 
 ---
 
-### Key Features
+### Key Features for Sales Data
 
 #### Data Exploration and Cleaning: 
 Assessing and cleaning the dataset to ensure accurate and reliable analysis.
@@ -47,6 +58,10 @@ Evaluating order details to determine order frequency, size, and trends across d
 
 #### Visualizations:
 Creating visualizations to present sales performance, customer segmentation, and trends for better decision-making.
+
+---
+
+### Key Features for Customer Subscription Data
 
 ---
 
@@ -83,7 +98,7 @@ In the initial phase of the data cleaning and preparations, the following action
   4. Data cleaning and formatting.
 
 #### SQL
-  1. Conversion of the already cleaned data from Excel to a CSV file format, this was to enable importation of the data into SQL quickly and efficiently as opposed to importing an Excel       file format directly.
+  1. The already cleaned data from Excel was converted to a CSV file format, which enabled the data to be imported into SQL quickly and efficiently as opposed to directly importing an Excel file format.
   2. Creation of a database.
 
       ```SQL
@@ -103,7 +118,7 @@ In the initial phase of the data cleaning and preparations, the following action
 
 ---
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA) for Sales Data and Customer Subscription Data 
 EDA involves exploring the data to answer some questions about the data such as;
 - What is the overall sales trend
 - Which products are top sellers
@@ -117,7 +132,7 @@ EDA involves exploring the data to answer some questions about the data such as;
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/EXCEL%20CUSTOMER%20DATA.JPG?raw=true)
 
 
-  Figure 2: Shows the overall trend sales  for the customer data using pivot tables and charts
+  Figure 2: Shows the overall trend sales  for the customer subscription data using pivot tables and charts
 
 
 
@@ -146,7 +161,7 @@ EDA involves exploring the data to answer some questions about the data such as;
 
 ---
 
-### Data Visualization
+### Data Visualization for sales data
 (power bi visualizations)
 
 ![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20SALES%20DATA%201.JPG?raw=true)
@@ -155,4 +170,4 @@ EDA involves exploring the data to answer some questions about the data such as;
 Figure 4: Shows the sales overview, highlighting the trends and patterns of customers in different regions. It also gives insights into the fact that shoes are in high demand while the demand for socks and jackets dwindles.
 
 
-### CUSTOMER DATA
+###  Data Visualization for Customer Subscription Data
