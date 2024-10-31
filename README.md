@@ -149,5 +149,7 @@ EDA involves exploring the data to answer some questions about the data such as;
 ### Data Visualization
 (power bi visualizations)
 
+![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20SALES%20DATA%201.JPG?raw=true)
+
 
 
