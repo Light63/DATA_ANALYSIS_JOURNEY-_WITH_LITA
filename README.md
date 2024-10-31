@@ -3,7 +3,7 @@
 
 ---
 
-[Project Overview](#project-overview)
+[Project Overview_for Sales Data](#project-overview-for-sales-data)
 
 [Data Sources](#data-sources)
 
@@ -21,7 +21,7 @@
 
 ---
 
-### Project Overview
+### Project Overview for Sales Data
 This project analyses a dataset containing sales and customer data for various apparel and accessories, including shirts, shoes, gloves, jackets, hats, and socks. The datasets include key information such as product types, order IDs, customer IDs, quantity of products sold, and unit prices. the primary objective of this project is to uncover insights from the sales data that can help this business brand make informed decisions to improve its product offerings, sales strategies, and customer experience.
 
 ---
@@ -152,4 +152,7 @@ EDA involves exploring the data to answer some questions about the data such as;
 ![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20SALES%20DATA%201.JPG?raw=true)
 
 
+Figure 4: Shows the sales overview, highlighting the trends and patterns of customers in different regions. It also gives insights into the fact that shoes are in high demand while the demand for socks and jackets dwindles.
 
+
+### CUSTOMER DATA
