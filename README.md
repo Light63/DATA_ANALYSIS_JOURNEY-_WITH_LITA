@@ -25,6 +25,14 @@
 
 [Data Visualization for Customer Subscription Data](#data-visualization-for-customer-subscription-data)
 
+[Results and Insights for Sales Data](#results-and-insights-for-sales-data)
+
+[Results and Insights for Customer Subscription Data](#results-and-insights-for-customer-subscription-data)
+
+[Recommendations for Sales Data](#recommendations-for-sales-data)
+
+[Recommendations for  Customer Subscription Data](#recommendations-for-customer-subscription-data)
+
 ---
 
 ### Project Overview for Sales Data
@@ -170,3 +178,20 @@ Figure 4: Shows the sales overview, highlighting the trends and patterns of cust
 
 
 ###  Data Visualization for Customer Subscription Data
+
+---
+
+### Results and Insights for Sales Data
+
+---
+
+### Results and Insights for Customer Subscription Data
+
+---
+
+### Recommendations  for Sales Data
+
+---
+
+### Recommendations  for Customer Subscription Data
+
