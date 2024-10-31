@@ -5,7 +5,7 @@
 
 [Project Overview for Sales Data](#project-overview-for-sales-data)
 
-[Project Overview for Customer Subscription Data](#project-overview-for-customer-subscription- data)
+[Project Overview for Customer Subscription Data](#project-overview-for-customer-subscription-data)
 
 [Data Sources](#data-sources)
 
@@ -33,7 +33,6 @@ This project analyses a dataset containing sales and customer data for various a
 ---
 
 ### Project Overview for Customer Subscription Data
-This project analyses a dataset containing sales and customer data for various apparel and accessories, including shirts, shoes, gloves, jackets, hats, and socks. The datasets include key information such as product types, order IDs, customer IDs, quantity of products sold, and unit prices. the primary objective of this project is to uncover insights from the sales data that can help this business brand make informed decisions to improve its product offerings, sales strategies, and customer experience.
 
 ---
 
