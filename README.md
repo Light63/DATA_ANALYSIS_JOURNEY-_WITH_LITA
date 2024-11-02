@@ -213,7 +213,7 @@ Figure 4: Shows the sales overview, highlighting the trends and patterns of cust
 ###  Data Visualization for Customer Subscription Data
 
 
-![ALT text for image](
+![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20CUSTOMER%20VISUALS1.JPG?raw=true)
 
 
 
