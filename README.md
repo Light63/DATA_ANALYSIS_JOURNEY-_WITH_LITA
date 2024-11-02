@@ -42,6 +42,19 @@ This project analyses a dataset containing sales and customer data for various a
 
 ### Project Overview for Customer Subscription Data
 
+This project analyses customer data for an apparel and accessories brand to gain insights into customer behaviour, subscription trends, and revenue generation. This analysis will help inform marketing strategies, improve customer retention, and enhance product offerings.
+
+Dataset Description:
+The dataset includes the following columns:
+
+
+Expected Outcomes:
+
+Comprehensive insights into customer demographics and behaviors.
+Data-driven recommendations for marketing strategies and customer engagement.
+Identification of trends that can inform product development and inventory management.
+This analysis will empower the brand to enhance its customer experience and optimize its offerings to meet customer needs effectively.
+
 ---
 
 ### Data Sources
@@ -69,6 +82,17 @@ Creating visualizations to present sales performance, customer segmentation, and
 ---
 
 ### Key Features for Customer Subscription Data
+
+I. CustomerID: Unique identifier for each customer.
+ii. CustomerName: Name of the customer.
+iii. Region: Geographic region where the customer is located.
+iv. SubscriptionType: Type of subscription the customer has (e.g., basic, premium).
+v. SubscriptionStart: Date when the customer's subscription began.
+vi. SubscriptionEnd: Date when the customer's subscription ended.
+vii. Cancelled: Indicates whether the subscription has been cancelled (Yes/No).
+viii. Revenue: Total revenue generated from the customer.
+ix. DURATION: Duration of the subscription in months.
+x. Key Areas of Analysis.
 
 ---
 
