@@ -50,7 +50,7 @@ The dataset includes the following columns:
 
 Expected Outcomes:
 
-Comprehensive insights into customer demographics and behaviors.
+Comprehensive insights into customer demographics and behaviours.
 Data-driven recommendations for marketing strategies and customer engagement.
 Identification of trends that can inform product development and inventory management.
 This analysis will empower the brand to enhance its customer experience and optimize its offerings to meet customer needs effectively.
@@ -217,7 +217,7 @@ Figure 4: Shows the sales overview, highlighting the trends and patterns of cust
 
 
 
-Figure 5: Shows 
+Figure 5: Shows the subscription trends of the customers in the brand. This gives insights on the most popular subscription type loved by the brand's customers, and the number of active and cancelled  subscriptions. 
 
 ---
 
@@ -226,6 +226,23 @@ Figure 5: Shows
 ---
 
 ### Results and Insights for Customer Subscription Data
+
+
+The total count of Subscriptions reflects a total of 33,787 subscriptions, indicating a robust customer base engaging with the brand’s offerings. The total Active and cancelled Subscriptions are 18,612 and 15,175 respectively. therefore,  the current active subscriptions represent a significant portion of the customer base while cancelled subscriptions highlight a substantial churn rate that warrants further investigation.
+Also, the Basic subscription type emerges as the most popular among customers, suggesting that it meets the needs of a significant segment of the customer base.
+
+Recommendations for Future Productivity:
+Enhance the Basic Subscription Offering: Since the Basic subscription is the most popular, consider enhancing its features or benefits to increase customer satisfaction and retention. This could include exclusive discounts, early access to new collections, or personalized recommendations.
+
+Targeted Retention Strategies: With nearly half of the subscriptions being canceled, it's crucial to analyze the reasons behind cancellations. Implement proactive customer feedback mechanisms to identify pain points and address them promptly. Consider targeted re-engagement campaigns for those who have canceled.
+
+Segmented Marketing Efforts: Utilize customer segmentation based on region and subscription type to tailor marketing messages. Personalized campaigns can increase engagement and conversion rates, especially for those in the Basic subscription tier.
+
+Data-Driven Decision Making: Continuously analyze customer data to track trends over time. Regular monitoring of subscription metrics will enable the brand to make informed decisions about inventory, product offerings, and promotional strategies.
+
+Loyalty Programs: Introduce loyalty programs that reward long-term subscribers, encouraging them to stay with the brand and reducing churn rates.
+
+By focusing on these strategies, the brand can enhance customer loyalty, improve subscription retention, and ultimately drive revenue growth.
 
 ---
 
