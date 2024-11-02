@@ -84,14 +84,23 @@ Creating visualizations to present sales performance, customer segmentation, and
 ### Key Features for Customer Subscription Data
 
 I. CustomerID: Unique identifier for each customer.
+
 ii. CustomerName: Name of the customer.
+
 iii. Region: Geographic region where the customer is located.
+
 iv. SubscriptionType: Type of subscription the customer has (e.g., basic, premium).
+
 v. SubscriptionStart: Date when the customer's subscription began.
+
 vi. SubscriptionEnd: Date when the customer's subscription ended.
+
 vii. Cancelled: Indicates whether the subscription has been cancelled (Yes/No).
+
 viii. Revenue: Total revenue generated from the customer.
+
 ix. DURATION: Duration of the subscription in months.
+
 x. Key Areas of Analysis.
 
 ---
@@ -202,6 +211,13 @@ Figure 4: Shows the sales overview, highlighting the trends and patterns of cust
 
 
 ###  Data Visualization for Customer Subscription Data
+
+
+![ALT text for image](
+
+
+
+Figure 5: Shows 
 
 ---
 
