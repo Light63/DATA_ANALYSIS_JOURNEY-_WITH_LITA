@@ -202,61 +202,68 @@ EDA involves exploring the data to answer some questions about the data such as;
 
  ```
 create database LITA
+```
 
-select * from SalesData_Project
+1. TOTAL SALES FOR EACH PRODUCT CATEGORY
 
------question 1, TOTAL SALES FOR EACH PRODUCT CATEGORY---
-
+```
 SELECT Product,
 sum (sales_Revenue) As Total_sales
 from SalesData_Project
 group by product
+```
 
-----Question 2, number of sales transactions in each region-------
+2. Number of sales transactions in each region
 
+```
 select Region,
 count (sales_Revenue) as number_sales_of_transactions
 from SalesData_Project
 group by Region
+```
 
-------question 3. the highest selling product by total sales value-------
+3. The highest selling product by total sales value
 
+```
 select Top 1 product,
 sum(sales_Revenue) as total_sales_value
 from SalesData_Project
 group by product
 order by total_sales_value desc
+```
 
-select * from SalesData_Project
+4. calculate total revenue by product
 
-----question 4. calculate total revenue by product-----
-
+```
 select product, sum (sales_Revenue) as total_Revenue
 FROM SalesData_Project
 GROUP BY product
 order by total_revenue 
+```
 
+5. calculate monthly sales totals for the current year
 
-----question 5. calculate monthly sales totals for the current year---
-
-
+```
 SELECT FORMAT(OrderDate, 'yyyy-MM') AS Month, SUM(sales_Revenue) AS Total_Sales
 FROM SalesData_Project
 WHERE OrderDate >= DATEFROMPARTS(YEAR(GETDATE()), 1, 1) -- Start of the current year
   AND OrderDate < DATEADD(YEAR, 1, DATEFROMPARTS(YEAR(GETDATE()), 1, 1)) -- Start of the next year
 GROUP BY FORMAT(OrderDate, 'yyyy-MM')
 ORDER BY Month
+```
 
------question 6. top 5 customers by total purchase amount----
+6. Top 5 customers by total purchase amount
 
 select top 5(Customer_id),
 sum (sales_Revenue) as total_purchase_amount
 from SalesData_Project
 group by Customer_Id
 order by total_purchase_amount desc
+```
 
-----question 7. calculate percentage of total sales contributed by each region----
+7. calculate percentage of total sales contributed by each region
 
+```
 select region,
 sum (sales_Revenue) as total_sales,
 round ((select sum (sales_Revenue)/ cast((select sum(sales_Revenue) 
@@ -265,11 +272,11 @@ percentage_total_sales
 from SalesData_Project
 group by region
 order by region desc
+```
 
------question 8. identify products with no sales in the last quarter-----
+8. identify products with no sales in the last quarter
 
-select * from SalesData_Project
-
+```
 SELECT DISTINCT Product
 FROM SalesData_Project
 WHERE Product NOT IN (
@@ -277,6 +284,7 @@ WHERE Product NOT IN (
     FROM SalesData_Project
     WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 )
+```
 
 ---
 
