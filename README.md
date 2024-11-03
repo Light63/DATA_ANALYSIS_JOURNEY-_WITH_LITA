@@ -5,55 +5,28 @@
 
 [Project Overview for Sales Data](#project-overview-for-sales-data)
 
-[Project Overview for Customer Subscription Data](#project-overview-for-customer-subscription-data)
-
 [Data Sources](#data-sources)
 
 [Key Features for Sales Data](#key-features-for-sales-data)
-
-[Key Features for Customer Subscription Data](#key-features-for-customer-subscription-data)
 
 [Technologies Used](#technologies-used)
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
-[Exploratory Data Analysis (EDA) for Sales data and Customer Subscription Data](#exploratory-data-analysis-(eda)-for-sales-data-and-customer-subscription-data)
+[Exploratory Data Analysis (EDA) for Sales data ](#exploratory-data-analysis-(eda)-for-sales-data-and-customer-subscription-data)
 
 [Data Analysis](#data-analysis)
 
 [Data Visualization for Sales Data](#data-visualization-for-sales-data)
 
-[Data Visualization for Customer Subscription Data](#data-visualization-for-customer-subscription-data)
-
 [Results and Insights for Sales Data](#results-and-insights-for-sales-data)
 
-[Results and Insights for Customer Subscription Data](#results-and-insights-for-customer-subscription-data)
-
 [Recommendations for Sales Data](#recommendations-for-sales-data)
-
-[Recommendations for  Customer Subscription Data](#recommendations-for-customer-subscription-data)
 
 ---
 
 ### Project Overview for Sales Data
 This project analyses a dataset containing sales and customer data for various apparel and accessories, including shirts, shoes, gloves, jackets, hats, and socks. The datasets include key information such as product types, order IDs, customer IDs, quantity of products sold, and unit prices. the primary objective of this project is to uncover insights from the sales data that can help this business brand make informed decisions to improve its product offerings, sales strategies, and customer experience.
-
----
-
-### Project Overview for Customer Subscription Data
-
-This project analyses customer data for an apparel and accessories brand to gain insights into customer behaviour, subscription trends, and revenue generation. This analysis will help inform marketing strategies, improve customer retention, and enhance product offerings.
-
-Dataset Description:
-The dataset includes the following columns:
-
-
-Expected Outcomes:
-
-Comprehensive insights into customer demographics and behaviours.
-Data-driven recommendations for marketing strategies and customer engagement.
-Identification of trends that can inform product development and inventory management.
-This analysis will empower the brand to enhance its customer experience and optimize its offerings to meet customer needs effectively.
 
 ---
 
@@ -78,30 +51,6 @@ Evaluating order details to determine order frequency, size, and trends across d
 
 #### Visualizations:
 Creating visualizations to present sales performance, customer segmentation, and trends for better decision-making.
-
----
-
-### Key Features for Customer Subscription Data
-
-I. CustomerID: Unique identifier for each customer.
-
-ii. CustomerName: Name of the customer.
-
-iii. Region: Geographic region where the customer is located.
-
-iv. SubscriptionType: Type of subscription the customer has (e.g., basic, premium).
-
-v. SubscriptionStart: Date when the customer's subscription began.
-
-vi. SubscriptionEnd: Date when the customer's subscription ended.
-
-vii. Cancelled: Indicates whether the subscription has been cancelled (Yes/No).
-
-viii. Revenue: Total revenue generated from the customer.
-
-ix. DURATION: Duration of the subscription in months.
-
-x. Key Areas of Analysis.
 
 ---
 
@@ -158,7 +107,7 @@ In the initial phase of the data cleaning and preparations, the following action
 
 ---
 
-### Exploratory Data Analysis (EDA) for Sales Data and Customer Subscription Data 
+### Exploratory Data Analysis (EDA) for Sales Data 
 EDA involves exploring the data to answer some questions about the data such as;
 - What is the overall sales trend
 - Which products are top sellers
@@ -169,14 +118,6 @@ EDA involves exploring the data to answer some questions about the data such as;
   Figure 1: Shows the overall trend sales for the sales data using pivot tables and charts
 
 
-  ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/EXCEL%20CUSTOMER%20DATA.JPG?raw=true)
-
-
-  Figure 2: Shows the overall trend sales  for the customer subscription data using pivot tables and charts
-
-
-
-
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%201.JPG?raw=true)
 
 
@@ -185,8 +126,8 @@ EDA involves exploring the data to answer some questions about the data such as;
 
 
 
-  Figure 3: Shows the already prepared dataset ready for visualizations. this is particularly important as it enables effective analysis of the data to make valid and informed decisions 
-            that will in turn, identify patterns, and sales trends, as well as boost productivity. Hence, increasing revenue and customer satisfaction.
+  Figure 2: Shows the already prepared dataset ready for visualizations. this is particularly important as it enables effective analysis of the data to make valid and informed 
+  decisions that will in turn, identify patterns, and sales trends, as well as boost productivity. Hence, increasing revenue and customer satisfaction.
 
 
 ---
@@ -286,25 +227,15 @@ WHERE Product NOT IN (
 )
 ```
 
----
 
+---
 ### Data Visualization for sales data
 
 
 ![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20SALES%20DATA%201.JPG?raw=true)
 
 
-Figure 4: Shows the sales overview, highlighting the trends and patterns of customers in different regions. It also gives insights into the fact that shoes are in high demand while the demand for socks and jackets dwindles.
-
-
-###  Data Visualization for Customer Subscription Data
-
-
-![ALT text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/BI%20CUSTOMER%20VISUALS1.JPG?raw=true)
-
-
-
-Figure 5: Shows the subscription trends of the customers in the brand. This gives insights on the most popular subscription type loved by the brand's customers, and the number of active and cancelled  subscriptions. 
+Figure 3: Shows the sales overview, highlighting the trends and patterns of customers in different regions. It also gives insights into the fact that shoes are in high demand while the demand for socks and jackets dwindles.
 
 ---
 
@@ -312,30 +243,7 @@ Figure 5: Shows the subscription trends of the customers in the brand. This give
 
 ---
 
-### Results and Insights for Customer Subscription Data
-
-
-The total count of Subscriptions reflects a total of 33,787 subscriptions, indicating a robust customer base engaging with the brand’s offerings. The total Active and cancelled Subscriptions are 18,612 and 15,175 respectively. therefore,  the current active subscriptions represent a significant portion of the customer base while cancelled subscriptions highlight a substantial churn rate that warrants further investigation.
-Also, the Basic subscription type emerges as the most popular among customers, suggesting that it meets the needs of a significant segment of the customer base.
-
-
----
-
 ### Recommendations  for Sales Data
 
 ---
-
-### Recommendations  for Customer Subscription Data
-
-Enhance the Basic Subscription Offering: Since the Basic subscription is the most popular, consider enhancing its features or benefits to increase customer satisfaction and retention. This could include exclusive discounts, early access to new collections, or personalized recommendations.
-
-Targeted Retention Strategies: It's crucial to analyze the reasons behind cancellations, with nearly half of the subscriptions being cancelled.  Proactive customer feedback mechanisms should be Implemented to identify pain points and address them promptly. Also, targeted re-engagement campaigns for those who have cancelled should be Considered.
-
-Segmented Marketing Efforts: Utilize customer segmentation based on region and subscription type to tailor marketing messages. Personalized campaigns can increase engagement and conversion rates, especially for those in the Basic subscription tier.
-
-Data-Driven Decision Making: Continuously analyze customer data to track trends over time. Regular monitoring of subscription metrics will enable the brand to make informed decisions about inventory, product offerings, and promotional strategies.
-
-Loyalty Programs: Introduce loyalty programs that reward long-term subscribers, encouraging them to stay with the brand and reducing churn rates.
-
-By focusing on these strategies, the brand can enhance customer loyalty, improve subscription retention, and ultimately drive revenue growth.
 
