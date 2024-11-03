@@ -195,6 +195,7 @@ ORDER BY Month
 
 6. Top 5 customers by total purchase amount
 
+```
 select top 5(Customer_id),
 sum (sales_Revenue) as total_purchase_amount
 from SalesData_Project
@@ -226,10 +227,6 @@ WHERE Product NOT IN (
     WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 )
 ```
-
-
----
-
 
 ### Data Visualization for sales data
 
