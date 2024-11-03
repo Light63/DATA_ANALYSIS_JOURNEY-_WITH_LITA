@@ -229,6 +229,8 @@ WHERE Product NOT IN (
 
 
 ---
+
+
 ### Data Visualization for sales data
 
 
