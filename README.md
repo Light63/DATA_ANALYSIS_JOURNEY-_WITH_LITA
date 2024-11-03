@@ -37,20 +37,24 @@ The primary source of data used here is Data Sale.CSV. It is open-source data th
 
 ### Key Features for Sales Data
 
-#### Data Exploration and Cleaning: 
-Assessing and cleaning the dataset to ensure accurate and reliable analysis.
+I. Order ID: Unique identifier for each order, enabling precise tracking and management of transactions.
 
-#### Sales Performance Analysis: 
-Analyzed sales trends for each product type using amazing tools like Excel, SQL, and Power Bid to identify the most popular products and seasonal patterns.
+ii. Order Date:Date when the order was placed, allowing for time-based analysis of sales trends and seasonal patterns.
 
-#### Customer Segmentation: 
-Grouping customers based on their purchasing behaviour to understand preferences and tailor marketing strategies.
+iii. Customer ID:Unique identifier for each customer, facilitating customer segmentation and analysis of purchasing behaviours.
 
-#### Order Analysis: 
-Evaluating order details to determine order frequency, size, and trends across different product categories.
+iv. Revenue: Total income generated from each order, providing insights into financial performance and profitability.
 
-#### Visualizations:
-Creating visualizations to present sales performance, customer segmentation, and trends for better decision-making.
+v. Quantity: Number of units sold in each order, which helps assess product demand and inventory management.
+
+vi. Unit Price: Price per individual item sold, useful for calculating revenue per product and understanding pricing strategies.
+
+vii. Region: The geographic area where the order was placed, enabling regional sales analysis and targeted marketing efforts.
+
+viii. Product: Description or name of the product sold, allowing for analysis of product performance and popularity within the sales data.
+
+These features collectively provide a comprehensive view of sales performance, customer behaviour, and regional trends, enabling informed decision-making for marketing strategies, inventory management, and overall business growth.
+
 
 ---
 
@@ -111,7 +115,7 @@ In the initial phase of the data cleaning and preparations, the following action
 EDA involves exploring the data to answer some questions about the data such as;
 - What is the overall sales trend
 - Which products are top sellers
-- What are the products on peak sales? (pivot tables and charts for both datasets here)
+- What are the products on peak sales?
 
   ![Alt text for image](https://github.com/Light63/DATA_ANALYSIS_JOURNEY-_WITH_LITA/blob/main/Excel%20sales%20data%201.JPG?raw=true)
 
@@ -163,7 +167,7 @@ from SalesData_Project
 group by Region
 ```
 
-3. The highest selling product by total sales value
+3. The highest-selling product by total sales value
 
 ```
 select Top 1 product,
@@ -203,7 +207,7 @@ group by Customer_Id
 order by total_purchase_amount desc
 ```
 
-7. calculate percentage of total sales contributed by each region
+7. calculate the percentage of total sales contributed by each region
 
 ```
 select region,
