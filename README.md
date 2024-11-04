@@ -39,9 +39,9 @@ The primary source of data used here is Data Sale.CSV. It is open-source data th
 
 I. Order ID: Unique identifier for each order, enabling precise tracking and management of transactions.
 
-ii. Order Date:Date when the order was placed, allowing for time-based analysis of sales trends and seasonal patterns.
+ii. Order Date: The date when the order was placed, allowing for time-based analysis of sales trends and seasonal patterns.
 
-iii. Customer ID:Unique identifier for each customer, facilitating customer segmentation and analysis of purchasing behaviours.
+iii. Customer ID: Unique identifier for each customer, facilitating customer segmentation and analysis of purchasing behaviours.
 
 iv. Revenue: Total income generated from each order, providing insights into financial performance and profitability.
 
