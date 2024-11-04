@@ -31,7 +31,7 @@ This project analyses a dataset containing sales data for various apparel and ac
 ---
 
 ### Data Sources
-The primary source of data used here is Data Sale.CSV. It is open-source data that can be freely downloaded from an open source online such as Kaggle or FRED or any other data repository site. 
+The primary source of data used here is Data Sale.CSV. It is open-source data that can be freely downloaded from an open source online such as Kaggle, FRED or any other data repository site. 
 
 ---
 
