@@ -101,13 +101,13 @@ In the initial phase of the data cleaning and preparations, the following action
      The above code creates a database that houses all tables ready for querying.
      
   4. Import the SalesData and CustomerData data into the already created database.
-  5. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions (screenshot of the codes).
+  5. Writing amazing codes to show the different trends and patterns in the dataset for making sound decisions.
 
 #### POWER BI
   1. launched the power bi environment.
   2. Importation of both datasets using the TEXT/CSV file extension.
   3. Explored and cleaned the dataset.
-  4. Confirmed the integrity of the datasets by using column quality, column distribution, and column profile options under the view tab(screenshot of this).
+  4. Confirmed the integrity of the datasets by using column quality, column distribution, and column profile options under the view tab.
 
 ---
 
