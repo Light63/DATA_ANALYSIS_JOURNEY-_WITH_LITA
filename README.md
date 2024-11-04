@@ -149,7 +149,7 @@ EDA involves exploring the data to answer some questions about the data such as;
 create database LITA
 ```
 
-1. TOTAL SALES FOR EACH PRODUCT CATEGORY
+1. Total Sales for each product category
 
 ```
 SELECT Product,
@@ -177,7 +177,7 @@ group by product
 order by total_sales_value desc
 ```
 
-4. calculate total revenue by product
+4. Calculate total revenue by product
 
 ```
 select product, sum (sales_Revenue) as total_Revenue
@@ -186,7 +186,7 @@ GROUP BY product
 order by total_revenue 
 ```
 
-5. calculate monthly sales totals for the current year
+5. Calculate monthly sales totals for the current year
 
 ```
 SELECT FORMAT(OrderDate, 'yyyy-MM') AS Month, SUM(sales_Revenue) AS Total_Sales
@@ -207,7 +207,7 @@ group by Customer_Id
 order by total_purchase_amount desc
 ```
 
-7. calculate the percentage of total sales contributed by each region
+7. Calculate the percentage of total sales contributed by each region
 
 ```
 select region,
@@ -220,7 +220,7 @@ group by region
 order by region desc
 ```
 
-8. identify products with no sales in the last quarter
+8. Identify products with no sales in the last quarter
 
 ```
 SELECT DISTINCT Product
@@ -231,6 +231,9 @@ WHERE Product NOT IN (
     WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 )
 ```
+
+
+---
 
 ### Data Visualization for sales data
 
@@ -254,7 +257,7 @@ Expand Shoe Offerings: Given the strong sales performance of shoes, consider exp
 
 Targeted Marketing Campaigns in the South: Leverage the high demand in the South by developing targeted marketing campaigns. Highlight shoe promotions and pair them with related accessories like socks or insoles to enhance the overall value proposition.
 
-Cross-Selling Opportunities: Promote cross-selling strategies by bundling shoes with complementary products like jackets, hats, and gloves. This could incentivize customers to explore a wider range of offerings while increasing the average order value.
+Cross-Selling Opportunities: Promote cross-selling strategies by bundling shoes with complementary products like jackets, hats, and gloves. This will incentivize customers to explore a wider range of offerings while increasing the average order value.
 
 Regional Promotions: Consider implementing region-specific promotions to boost sales in the East, North, and West, where demand may not be as strong. Tailoring marketing efforts to the unique preferences and buying behaviours of customers in these regions can drive engagement.
 
