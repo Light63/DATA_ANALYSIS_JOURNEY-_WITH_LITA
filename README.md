@@ -137,7 +137,7 @@ EDA involves exploring the data to answer some questions about the data such as;
 ---
 
   ### Data Analysis
-  the images  and codes below show how data analysis was performed on the datasets using the above-mentioned tools.
+  The images  and codes below show how data analysis was performed on the datasets using the above-mentioned tools.
 
   ```SQL
   SELECT * FROM TABLE 1
